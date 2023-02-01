@@ -1,7 +1,7 @@
 package com.example.hackerrank.inheritance;
 
-public class Bird implements Animal {
-    @Override
+public class Bird extends Animal {
+
     public void walk()
     {
         System.out.println("I am walking");
